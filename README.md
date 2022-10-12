@@ -2,7 +2,7 @@
 
 ## 📝 Descrição <a name="Descrição"></a>
 
-Esse repositório, consiste na implementação de um CRUD de usuários no qual será submetido a testes para validação do conhecimento da utilização destes testes.
+Esse repositório, consiste na implementação de um CRUD de usuários no qual será submetido a testes para validação do conhecimento da utilização destes testes
 <br>
 
 ## 📥 Requisitos <a name="Requisitos"></a>
