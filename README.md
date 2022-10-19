@@ -1,6 +1,6 @@
 <h1 align="center"> Basic API </h1>
 
-    [![CI de teste](https://github.com/IagoCB/basic-API/actions/workflows/node.js.yml/badge.svg)](https://github.com/IagoCB/basic-API/actions/workflows/node.js.yml)
+[![CI de teste](https://github.com/IagoCB/basic-API/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/IagoCB/basic-API/actions/workflows/node.js.yml)
 
 
 ## 📝 Descrição <a name="Descrição"></a>
