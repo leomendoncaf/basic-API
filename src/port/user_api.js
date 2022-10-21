@@ -24,8 +24,11 @@ module.exports = (app) => {
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });
-    app.delete(`${route}/delete`, async (req, res) => {
-        const response = await User.delete(req.body);
+    app.delete(`${route}/delete/:email`, async (req, res) => {
+        const data = req.body;
+        const { email } = req.params;
+        data.email = email;
+        const response = await User.delete(data);
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });
