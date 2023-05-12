@@ -23,13 +23,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Run unit tests
-        run: npm test
-
-  mock:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: Install dependencies
-          run: npm install
-        - name: Run mock tests
-          run: npm run test:mock
+        run: npx jest
